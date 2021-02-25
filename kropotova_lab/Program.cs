@@ -11,38 +11,50 @@ namespace kropotova_lab
         static void Main(string[] args)
         {
             {
-               // while (true)
-              //  {
-              //      Console.Write("Input Nomer: ");
-              //      string InputNomer = Console.ReadLine();
-              //      if (InputNomer.Length == 0)
-              //          break;
-              //      char[] GosNomerSimb = { 'A', 'B', 'C', 'E', 'H', 'K', 'M', 'O', 'P', 'T', 'X', 'Y' };
-              //      if (InputNomer.Length == 6)
-               //     {
-               //         var ValidNumber = true;
-               //         for (int i = 0; i < 6 & ValidNumber; i++)
-               //         {
-                //            if (i == 1 | i == 2 | i == 3)
-                //                ValidNumber &= Char.IsDigit(InputNomer[i]);
-                 //           else
-             //                   ValidNumber &= (InputNomer[i].ToString().IndexOfAny(GosNomerSimb) >= 0);
-              //          }
-              //          Console.Write(ValidNumber ? "номер правильный\n" : "номер не правильный\n");
-              //      }
-              //      else
-             //       {
-             //           Console.Write("всего хорошего, Евгений Иванович\n");
-//
-          //          }
-          //      }
-         //       Console.Write("Введите последовательность: ");
-           //    string Posledovatelnost = Console.ReadLine();
-           //     char[] Strelka1 = { '>', '<', '-' };
-          //      if (Posledovatelnost = Strelka1[0] &) 
-          //          Console.Write("\nPress ENTER to continue...");
-          //      Console.ReadLine();
-                }
-            }
-        }
+               // Console.WriteLine(DateTime.Now);
+                //      var MassivDate = new List<DateTime>() {
+                //     new DateTime(2021, 1, 15),
+                //     new DateTime(2021, 2, 20),
+                //      new DateTime(2011, 5, 2),
+                //    new DateTime(2015, 5, 1),
+                //  new DateTime(2013, 5, 3),
+                //       new DateTime(2020, 1, 17)};
+                //      var result = new Dictionary<int, int>();
+                //     foreach (DateTime NastData in MassivDate)
+                //    {
+                //      if (result.ContainsKey(NastData.Month))
+                //    {
+                //      result[NastData.Month] = result[NastData.Month] + 1;
+                //           }
+                //         else
+                //          result[NastData.Month] = 1;
+                //    }
+                //             var PopularMonth = -1;
+                //           var MaxCount = 0;
+                //         foreach (KeyValuePair<int, int> keyValue in result)
+                //       {
+                //         if (keyValue.Value > MaxCount)
+                //       {
+                //         MaxCount = keyValue.Value;
+                //       PopularMonth = keyValue.Key;
+                // }
+                // }
+
+
+                //      Console.WriteLine($"Самый популярный месяц {PopularMonth}");
+                //       Console.Write("Press ENTER to continue...");
+                //      Console.ReadLine();
+
+
+         //       DateTime date1 = new DateTime(2021, 2, 20 ); 
+         //       DateTime date2 = new DateTime(2021, 2, 23 ); 
+         //       Console.WriteLine(Math.Abs(date1.Subtract(date2).TotalDays));
+         //       Console.ReadLine();
+
+
+
+
+             }
+          }
+       }
     }
